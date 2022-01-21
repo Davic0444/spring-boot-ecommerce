@@ -26,6 +26,6 @@ public class Country {
 
     @OneToMany(mappedBy = "country")
     @JsonIgnore
-    private List<States> states;
+    private List<State> states;
 
 }
