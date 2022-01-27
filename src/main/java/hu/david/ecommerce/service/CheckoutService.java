@@ -4,7 +4,6 @@ import hu.david.ecommerce.dto.Purchase;
 import hu.david.ecommerce.dto.PurchaseResponse;
 
 public interface CheckoutService {
-	
-	PurchaseResponse placeOrder(Purchase purchase);
-	
+
+    PurchaseResponse placeOrder(Purchase purchase);
 }
